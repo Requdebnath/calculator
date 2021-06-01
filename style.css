@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #130f40;
+	height: 100vh;
+}
+.cal-box{
+	width: 400px;
+	background: #c7ecee;
+	border-radius: 5px;
+	padding: 40px;
+	margin: 80px auto;
+}
+.output{
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 16px;
+	border-radius: 4px;
+}
+.btn{
+	width: 76px;
+	background: #7ed6df;
+	font-weight: bold;
+	color: #1e272e;
+	transition: 0.5s;
+}
+.btn:hover{
+	background: transparent;
+	border: 1px solid #7ed6df;
+	transition: 0.5s;
+}
+.clearbutton{
+	background: red;
+	color: white;
+}
+.mathbutton{
+	background: black;
+	color: white;
+}
+.deletebutton{
+	background: #5a0f0f;
+	color: white;
+}
